@@ -1,0 +1,8 @@
+#### Bu dosya phpBB Türkiye "https://www.phpbbturkey.com/" sitesinden indirilmiştir ####
+####
+#### phpBB3 Türkçe Dil Paketi ####
+####
+Sürüm Geçmişi:
+-------------------------------------------------------
+27-12-2019 v1.3.0-rc1
+- Dil dosyaları phpBB 3.3.0-RC1 sürümü için yayınlandı.
