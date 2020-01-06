@@ -271,10 +271,10 @@ $lang = array_merge($lang, array(
 	'FILESYSTEM_CANNOT_CREATE_SYMLINK'			=> 'Symlink oluşturulamıyor',
 	'FILESYSTEM_CANNOT_CREATE_DIRECTORY'		=> 'Dizin oluşturulamıyor',
 	'FILESYSTEM_CANNOT_DELETE_FILES'			=> 'Dosyalar sistemden silinemiyor',
-	'FILESYSTEM_CANNOT_DUMP_FILE'				=> 'Dosya dökümü yapılamıyor',
+	'FILESYSTEM_CANNOT_DUMP_FILE'				=> 'Dosyaya döküm yapılamıyor',
 	'FILESYSTEM_CANNOT_MIRROR_DIRECTORY'		=> 'Dizin yansıtılamıyor',
 	'FILESYSTEM_CANNOT_RENAME_FILE'				=> 'Sistemden bir dosya yeniden adlandırılamıyor',
-	'FILESYSTEM_CANNOT_TOUCH_FILES'				=> 'Dosyanın mevcut olup olmadığı belirlenemedi',
+	'FILESYSTEM_CANNOT_TOUCH_FILES'				=> 'Dosya oluşturulamıyor veya dosya zaman damgaları değiştirilemiyor',
 
 	'FTP_FSOCK_HOST'					=> 'FTP sunucusu',
 	'FTP_FSOCK_HOST_EXPLAIN'			=> 'Sitenize bağlanmak için kullandığınız FTP sunucusu.',

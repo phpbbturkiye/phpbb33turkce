@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'PHP sürümü',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB, PHP 7.1.0 ya da üst sürümünü gerektirir.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB, PHP 7.1.3 ya da üst sürümünü gerektirir.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'PHP getimagesize() fonksiyonu gerekmektedir',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'phpBB’nin düzgün bir şekilde çalışması için, getimagesize fonksiyonu mevcut olmalıdır.',
 	'PCRE_UTF_SUPPORT'					=> 'PCRE UTF-8 desteği',
@@ -370,7 +370,7 @@ $lang = array_merge($lang, array(
 			<li>Veritabanını güncellemek için adımları izleyin ve bu işlemin tamamlanmasına izin verin.</li>
 			<li>FTP ya da SSH programı yardımıyla mesaj panosu kurulumunuzun ana dizininden <code class="inline">/install</code> klasörünü silin.<br><br></li>
 		</ol>
-		
+
 		<p>Artık tüm kullanıcılarınız ve mesajlarınızı içeren yeni bir güncel mesaj panonuz var. Ayrıca alttaki işlemleri yapmayı da unutmayın:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Dil dosyanızı güncelleyin</li>
@@ -564,7 +564,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Dönüştürme tamamlandı',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Mesaj panonuzu phpBB 3.3’e başarıyla dönüştürdünüz. Şimdi giriş yapabilir ve <a href="../">mesaj panonuza erişebilirsiniz</a>. Lütfen install dizinini silerek mesaj panonuzu aktif etmeden önce, ayarların doğru şekilde transfer edildiğine emin olun. Unutmayın, phpBB kullanımı için çevrimiçi yardım <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">Dokümantasyon</a> ve <a href="https://www.phpbb.com/community/viewforum.php?f=466">destek forumlarında</a> mevcuttur.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Mesaj panonuzu phpBB 3.3’e başarıyla dönüştürdünüz. Şimdi giriş yapabilir ve <a href="../">mesaj panonuza erişebilirsiniz</a>. Lütfen install dizinini silerek mesaj panonuzu aktif etmeden önce, ayarların doğru şekilde transfer edildiğine emin olun. Unutmayın, phpBB kullanımı için çevrimiçi yardım <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">Dokümantasyon</a> ve <a href="https://www.phpbb.com/community/viewforum.php?f=661">destek forumlarında</a> mevcuttur.',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'Eski mesaj panonuzda dosya ekleri için FTP yüklemesi açık. Lütfen FTP yükleme seçeneğini kapatın ve geçerli bir dizin belirlendiğine emin olun, daha sonra tüm dosya eki dosyalarını bu yeni web erişilebilirliği olan dizine kopyalayın. Bunu yaptıktan sonra, dönüştürücüyü yeniden başlatın.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Dönüştürme için hiç bir konfigürasyon bilgisi mevcut değil.',
