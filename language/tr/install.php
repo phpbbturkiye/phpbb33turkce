@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
      
 	<p>phpBB3 alttaki veritabanlarını destekler:</p>
 	<ul>
-		<li>MySQL 4.1.3 veya üzeri (MySQLi destekli)</li>
+		<li>MySQL 4.1.3 veya üzeri (MySQLi gerekli)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 2.8.2+</li>
 		<li>SQLite 3.6.15+</li>
