@@ -166,6 +166,7 @@ $lang = array_merge($lang, array(
 	),
 	'COLLAPSE_VIEW'			=> 'Dar görünüm',
 	'CLOSE_WINDOW'			=> 'Pencereyi kapat',
+	'CODE'					=> 'Kod',	
 	'COLOUR_SWATCH'			=> 'Renk kuşağı',
 	'COLON'					=> ':',
 	'COMMA_SEPARATOR'		=> ', ',	// Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
@@ -203,6 +204,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_MESSAGES'		=> 'Eskiden itibaren mesajları göster',
 	'DISPLAY_POSTS'			=> 'Eskiden itibaren mesajları göster',
 	'DISPLAY_TOPICS'		=> 'Eskiden itibaren başlıkları göster',
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Girilen e-posta etki alanında geçerli bir MX kaydı yok.',	
 	'DOWNLOADED'			=> 'İndirilme',
 	'DOWNLOADING_FILE'		=> 'Dosya indiriliyor',
 	'DOWNLOAD_COUNTS'		=> array(
@@ -306,9 +308,8 @@ $lang = array_merge($lang, array(
 	'GB'                  		=> 'GB',
 	'GIB'                  		=> 'GiB',
 	'GO'						=> 'Git',
-	'GOOGLEPLUS'				=> 'Google+',	
  	'GOTO_FIRST_POST'			=> 'İlk mesaja git',
- 	'GOTO_LAST_POST'			=> 'Son mesaja git',	
+ 	'GOTO_LAST_POST'			=> 'Son mesaja git',
 	'GOTO_PAGE'					=> 'Sayfaya git',
 	'GROUP'						=> 'Grup',
 	'GROUPS'					=> 'Gruplar',
@@ -605,6 +606,9 @@ $lang = array_merge($lang, array(
 	'POST_UNAPPROVED'		=> 'Bu mesaj onaylandı.',
 	'POST_UNAPPROVED_EXPLAIN'	=> 'Bu mesaj, bir moderatör tarafından onaylanana kadar diğer kullanıcılar tarafından görülemez.',	
 	'POWERED_BY'			=> 'Powered by %s',
+
+	'QUOTE'					=> 'Alıntı',
+	
 	'PREVIEW'			=> 'Önizleme',
 	'PREVIOUS'            => 'Önceki',      // Used in pagination
 	'PREVIOUS_STEP'         => 'Önceki',

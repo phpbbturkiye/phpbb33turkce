@@ -47,9 +47,11 @@ $lang = array_merge($lang, array(
 	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'Bir indeks kaldırma işlemi başlatılmıştı. Arama indeks sayfasına erişim için bunu tamamlayacaksınız ya da iptal edeceksiniz.',
 	'CONTINUE_INDEXING'						=> 'Önceki indeksleme işlemine devam et',
 	'CONTINUE_INDEXING_EXPLAIN'				=> 'Bir indeksleme işlemi başlatılmıştı. Arama indeks sayfasına erişim için bunu tamamlayacaksınız ya da iptal edeceksiniz.',
-	'CREATE_INDEX'							=> 'İndeks Oluştur',
+	'CREATE_INDEX'							=> 'İndeks oluştur',
 
-	'DELETE_INDEX'							=> 'İndeksi Sil',
+	'DEFAULT_SEARCH_RETURN_CHARS'			=> 'Varsayılan döndürülen karakter sayısı',
+	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN'	=> 'Arama sırasında döndürülecek varsayılan karakter sayısı. 0 değeri mesajın tamamını döndürecektir.',
+	'DELETE_INDEX'							=> 'İndeksi sil',
 	'DELETING_INDEX_IN_PROGRESS'			=> 'İndeks silinmesi işlemde',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Arama uygulaması şu anda indeksleri siliyor. Bu işlem bir kaç dakika sürebilir.',
 
