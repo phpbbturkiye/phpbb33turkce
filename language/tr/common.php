@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'			=> 'tr',
 
 	// You can define different rules for the determination of plural forms here.
-	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
+	// See https://area51.phpbb.com/docs/dev/3.3.x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 0,
 	
@@ -110,6 +110,8 @@ $lang = array_merge($lang, array(
 	'AVATAR_NOT_UPLOADED'			=> 'Avatar gönderilemedi.',
 	'AVATAR_NO_TEMP_DIR'			=> 'Geçici klasör bulunamadı ya da yazılabilir değil.',	
 	'AVATAR_NO_SIZE'				=> 'Bağlantı verilen avatarın genişlik veya yüksekliği belirlenemedi, lütfen onları elle girin.',
+	'AVATAR_NO_UPLOAD_DIR'			=> 'Avatar depolama yolu mevcut değil veya yazılabilir değil.',
+	'AVATAR_NO_UPLOAD_PATH'			=> 'Avatar yükleme etkinleştirildi, ancak avatar depolama yolu ayarlanmadı.',	
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Belirtilen dosyanın sadece bir kısmı yüklendi.',
 	'AVATAR_PHP_SIZE_NA'			=> 'Avatar dosya boyutu çok büyük.<br />php.ini dosyasında ayarlanmış izin verilen en yüksek dosya boyutu belirlenemiyor.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Avatar dosya boyutu çok büyük. İzin verilen en yüksek yükleme boyutu %1$d %2$s.<br />Not: Bu ayar php.ini dosyasında belirlenmiştir ve üzerine yazılamaz.',
@@ -481,6 +483,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_REFERENCE'			=> '"%1$s"',
 	'NOTIFICATION_REASON'				=> '<em>Sebep:</em> %1$s.',
 	'NOTIFICATION_REPORT_PM'			=> '%1$s tarafından <strong>Özel Mesaj bildirildi</strong>:',
+	'NOTIFICATION_REPORT_PM_CLOSED'		=> '%1$s tarafından <strong>Özel Mesaj bildirisi kapatıldı</strong>:',
 	'NOTIFICATION_REPORT_POST'			=> '%1$s tarafından <strong>mesaj bildirildi</strong>:',
 	'NOTIFICATION_REPORT_CLOSED'		=> '%1$s tarafından mesaj için yaptığınız <strong>bildiri kapatıldı</strong>:',
 	'NOTIFICATION_TOPIC'				=> '%1$s tarafından <strong>yeni bir başlık</strong> açıldı:',

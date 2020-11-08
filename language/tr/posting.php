@@ -147,6 +147,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Bu forumdaki mesajları alıntı yapmak için giriş yapmalısınız.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Bu forumdaki başlıklara cevap vermek için giriş yapmalısınız.',
 
+	'MAX_ATTACHMENT_FILESIZE'	=> 'Ek başına en yüksek dosya boyutu: %s.',
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'Fontları sadece en yüksek %d boyutuna kadar kullanabilirsiniz.',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
 		1	=> 'Flash dosyalarınız en fazla %d piksel yüksekliğinde olabilir.',

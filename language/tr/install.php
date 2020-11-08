@@ -112,6 +112,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'Eğer PHP kurulumunuz PCRE uzantısı içinde UTF-8 desteği ile derlenmediyse phpBB çalışmayacaktır.',
 	'PHP_JSON_SUPPORT'					=> 'PHP JSON desteği',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'phpBB’nin düzgün bir şekilde çalışması için, PHP JSON eklentisinin mevcut olması gereklidir.',
+	'PHP_MBSTRING_SUPPORT'				=> 'PHP mbstring desteği',
+	'PHP_MBSTRING_SUPPORT_EXPLAIN'		=> 'phpBB’nin düzgün bir şekilde çalışması için, PHP mbstring eklentisinin mevcut olması gereklidir.',	
 	'PHP_XML_SUPPORT'					=> 'PHP XML/DOM desteği',
 	'PHP_XML_SUPPORT_EXPLAIN'			=> 'phpBB’nin düzgün bir şekilde çalışması için, PHP XML/DOM eklentisinin mevcut olması gereklidir.',
 	'PHP_SUPPORTED_DB'					=> 'Desteklenen veritabanları',
@@ -233,15 +235,15 @@ $lang = array_merge($lang, array(
 
 // Default database schema entries... 
 $lang = array_merge($lang, array( 
-   'CONFIG_BOARD_EMAIL_SIG'        => 'Teşekkürler, Yönetim', 
-   'CONFIG_SITE_DESC'             => 'Mesaj panonuzu tanımlamak için kısa bir yazı', 
-   'CONFIG_SITENAME'              => 'siteadresiniz.com', 
+   'CONFIG_BOARD_EMAIL_SIG'        => 'Teşekkürler, Yönetim',
+   'CONFIG_SITE_DESC'             => 'Mesaj panonuzu tanımlamak için kısa bir yazı',
+   'CONFIG_SITENAME'              => 'siteadresiniz.com',
      
-   'DEFAULT_INSTALL_POST'        => 'Bu, phpBB3 kurulumunuzun içerisindeki örnek bir mesajdır. Her şey çalışıyor görünüyor. Eğer isterseniz bu mesajı silebilirsiniz ve mesaj panonuzu ayarlamaya devam edebilirsiniz. Kurulum işlemi sırasında öntanımlı kullanıcı grupları, yöneticiler, botlar, global moderatörler, misafirler, kayıtlı kullanıcılar ve kayıtlı COPPA kullanıcıları için ayrılan izinler ilk kategoriniz ve ilk forumunuz için tanımlanmıştır. Ayrıca eğer ilk kategorinizi ve ilk forumunuzu silmeyi tercih ederseniz, oluşturacağınız tüm yeni kategoriler ve forumlar için tüm bu kullanıcı gruplarına izinleri atamayı unutmayın. İlk kategorinizi ve ilk forumunuzu yeniden adlandırmanız ve oluşturacağınız yeni kategoriler ve yeni forumlar için izinleri buradan kopyalamanız önerilir. İyi eğlenceler!', 
+   'DEFAULT_INSTALL_POST'        => '<t>Bu, phpBB3 kurulumunuzun içerisindeki örnek bir mesajdır. Her şey çalışıyor görünüyor. Eğer isterseniz bu mesajı silebilirsiniz ve mesaj panonuzu ayarlamaya devam edebilirsiniz. Kurulum işlemi sırasında öntanımlı kullanıcı grupları, yöneticiler, botlar, global moderatörler, misafirler, kayıtlı kullanıcılar ve kayıtlı COPPA kullanıcıları için ayrılan izinler ilk kategoriniz ve ilk forumunuz için tanımlanmıştır. Ayrıca eğer ilk kategorinizi ve ilk forumunuzu silmeyi tercih ederseniz, oluşturacağınız tüm yeni kategoriler ve forumlar için tüm bu kullanıcı gruplarına izinleri atamayı unutmayın. İlk kategorinizi ve ilk forumunuzu yeniden adlandırmanız ve oluşturacağınız yeni kategoriler ve yeni forumlar için izinleri buradan kopyalamanız önerilir. İyi eğlenceler!</t>',
      
-   'FORUMS_FIRST_CATEGORY'      => 'İlk kategoriniz', 
-   'FORUMS_TEST_FORUM_DESC'   => 'İlk forumunuzun açıklaması.', 
-   'FORUMS_TEST_FORUM_TITLE'     => 'İlk forumunuz', 
+   'FORUMS_FIRST_CATEGORY'      => 'İlk kategoriniz',
+   'FORUMS_TEST_FORUM_DESC'   => 'İlk forumunuzun açıklaması.',
+   'FORUMS_TEST_FORUM_TITLE'     => 'İlk forumunuz',
      
    'RANKS_SITE_ADMIN_TITLE'        => 'Mesaj Panosu Yöneticisi',
    'REPORT_WAREZ'               => 'Mesaj illegal ya da korsan yazılım bağlantıları içeriyor.',

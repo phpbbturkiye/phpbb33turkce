@@ -232,6 +232,7 @@ $lang = array_merge($lang, array(
 	'CRON_NO_SUCH_TASK'		=> '“%s” adlı kron görevi bulunamadı.',
 	'CRON_NO_TASK'			=> 'Şu anda hiç bir kron görevinin çalıştırılması gerekmiyor.',
 	'CRON_NO_TASKS'			=> 'Hiç bir kron görevi bulunamadı.',
+	'CSV_INVALID'			=> 'Belirtilen virgülle ayrılmış “%1$s” ayarı geçersiz. Değerler sadece virgülle sınırlanmalıdır, baştaki veya sondaki sınırlayıcıları içermemelidir.',
 	'CURRENT_VERSION'		=> 'Şu anki sürüm',	
 
 	'DEACTIVATE'				=> 'Deaktifleştir',
@@ -313,7 +314,8 @@ $lang = array_merge($lang, array(
 	'TOTAL_SIZE'      		=> 'Toplam boyut',
 
 	'UCP'					=> 'Kullanıcı Kontrol Paneli',
-	'URL_INVALID'			=> '“%1$s” ayarı için belirtilen URL adresi geçersiz.',	
+	'URL_INVALID'			=> '“%1$s” ayarı için belirtilen URL adresi geçersiz.',
+	'URL_SCHEME_INVALID'	=> 'Virgülle ayrılmış “%1$s” ayarında belirtilen “%2$s” şeması geçersiz. Şema bir latin karakteriyle başlamalı ve ardından alfanümerik karakterler, kısa çizgiler veya noktalar gelmelidir.',
 	'USERNAMES_EXPLAIN'		=> 'Her kullanıcı adını ayrı bir satıra yerleştirin.',
 	'USER_CONTROL_PANEL'	=> 'Kullanıcı Kontrol Paneli',
 
