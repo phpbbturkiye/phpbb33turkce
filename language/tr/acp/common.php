@@ -369,9 +369,11 @@ $lang = array_merge($lang, array(
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Şeffaf karakter kodlaması yanlış yapılandırılmış',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> 0 olarak ayarlanmalıdır. Şu anki değeri <samp>PHP bilgisi</samp> sayfasından kontrol edebilirsiniz.',
 	'ERROR_MBSTRING_HTTP_INPUT'						=> 'HTTP giriş karakter dönüşümü yanlış yapılandırılmış',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> <samp>pass (izinli)</samp> olarak ayarlanmalıdır. Şu anki değeri <samp>PHP bilgisi</samp> sayfasından kontrol edebilirsiniz.',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> boş bırakılmalıdır. Şu anki değeri <samp>PHP bilgisi</samp> sayfasından kontrol edebilirsiniz.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'HTTP çıkış karakter dönüşümü yanlış yapılandırılmış',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> <samp>pass (izinli)</samp> olarak ayarlanmalıdır. Şu anki değeri <samp>PHP bilgisi</samp> sayfasından kontrol edebilirsiniz.',	
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> boş bırakılmalıdır. Şu anki değeri <samp>PHP bilgisi</samp> sayfasından kontrol edebilirsiniz.',
+	'ERROR_DEFAULT_CHARSET'							=> 'Varsayılan karakter kümesi yanlış yapılandırılmış',
+	'ERROR_DEFAULT_CHARSET_EXPLAIN'					=> '<var>default_charset</var> <samp>UTF-8</samp> olarak ayarlanmalıdır. Şu anki değeri <samp>PHP bilgisi</samp> sayfasından kontrol edebilirsiniz.',
 
 	'FILES_PER_DAY'		=> 'Günlük ortalama dosya ekleri',
 	'FORUM_STATS'		=> 'Mesaj panosu istatistikleri',
