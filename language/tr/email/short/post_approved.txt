@@ -2,7 +2,7 @@ Subject: Mesaj Onaylandı - "{POST_SUBJECT}"
 
 Merhaba {USERNAME},
 
-Bu bildiriyi alıyorsunuz çünkü "{SITENAME}" mesaj panosunda bulunan "{POST_SUBJECT}" başlıklı mesajınız bir moderatör veya yönetici tarafından onaylandı.
+"{SITENAME}" mesaj panosunda bulunan "{POST_SUBJECT}" konulu mesajınız bir moderatör veya yönetici tarafından onaylandı.
 
 Eğer mesajı görüntülemek istiyorsanız alttaki bağlantıya tıklayın:
 {U_VIEW_POST}

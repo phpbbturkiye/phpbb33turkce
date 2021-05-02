@@ -1,8 +1,8 @@
-Subject: Başlık cevap bildirimi - "{TOPIC_TITLE}"
+Subject: "{TOPIC_TITLE}" konusunda alıntı yapıldı
 
 Merhaba {USERNAME},
 
-"{SITENAME}" mesaj panosundaki "{TOPIC_TITLE}" adlı başlıkta "{AUTHOR_NAME}" adlı kullanıcı sizin mesajınızı alıntı yaptığı için bu bildirimi alıyorsunuz. Alttaki bağlantıyı kullanarak gelen cevabı görüntüleyebilirsiniz.
+"{SITENAME}" mesaj panosundaki "{TOPIC_TITLE}" konu adlı başlıkta "{AUTHOR_NAME}" adlı kullanıcı mesajınızı alıntı yaptı.
 
 Eğer alıntı yapılan mesajı görüntülemek istiyorsanız, alttaki bağlantıya tıklayın:
 {U_VIEW_POST}
@@ -13,8 +13,7 @@ Eğer başlığı görüntülemek istiyorsanız, alttaki bağlantıya tıklayın
 Eğer forumu görüntülemek istiyorsanız, alttaki bağlantıya tıklayın:
 {U_FORUM}
 
-Eğer sizi alıntı yapılan cevaplar hakkındaki güncellemeleri artık almak istemiyorsanız, lütfen bildirim ayarlarınızı buradan güncelleyin:
-
+Eğer mesajlarınızın alıntı yapıldığı cevaplar hakkında güncellemeleri artık almak istemiyorsanız, lütfen bildirim ayarlarınızı buradan güncelleyin:
 {U_NOTIFICATION_SETTINGS}
 
 {EMAIL_SIG}

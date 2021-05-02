@@ -2,7 +2,7 @@ Subject: Özel mesaj bildirisi kapatıldı - "{SUBJECT}"
 
 Merhaba {USERNAME},
 
-Bu bildiriyi alıyorsunuz çünkü "{SITENAME}" mesaj panosunda "{AUTHOR_NAME}" tarafından gönderilen "{SUBJECT}" konulu özel mesaja yaptığınız bildiri bir moderatör veya yönetici tarafından incelendi. Bildiri daha sonra kapatıldı. Eğer başka sorunuz varsa {CLOSER_NAME} ile özel mesaj yoluyla iletişime geçin.
+"{SITENAME}" mesaj panosunda "{AUTHOR_NAME}" tarafından gönderilen "{SUBJECT}" konulu özel mesaja yaptığınız bildiri bir moderatör veya yönetici tarafından incelendi. Bildiri daha sonra kapatıldı. Eğer başka sorunuz varsa {CLOSER_NAME} ile özel mesaj yoluyla iletişime geçin.
 
 Bildirdiğiniz özel mesajı aşağıdaki bağlantıya tıklayarak görüntüleyebilirsiniz:
 

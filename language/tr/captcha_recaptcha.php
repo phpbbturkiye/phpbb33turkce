@@ -44,10 +44,11 @@ $lang = array_merge($lang, [
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha v2',
 	'CAPTCHA_RECAPTCHA_V3'			=> 'reCaptcha v3',
 
-	'RECAPTCHA_INCORRECT'			=> 'Belirlediğiniz cevap ya da çözüm yanlış',
-	'RECAPTCHA_NOSCRIPT'			=> 'Lütfen sorguyu yüklemek için tarayıcınızdaki JavaScript özelliğini aktifleştirin.',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'reCaptcha’yı kullanabilmek için, <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a> sitesinde bir hesap oluşturmalısınız.',
-	'RECAPTCHA_INVISIBLE'			=> 'Bu CAPTCHA aslında görünmez. Çalıştığını doğrulamak için bu sayfanın sağ alt köşesinde küçük bir simge görünmelidir.',	
+	'RECAPTCHA_INCORRECT'				=> 'Belirlediğiniz cevap ya da çözüm yanlış',
+	'RECAPTCHA_NOSCRIPT'				=> 'Lütfen sorguyu yüklemek için tarayıcınızdaki JavaScript özelliğini aktifleştirin.',
+	'RECAPTCHA_NOT_AVAILABLE'			=> 'reCaptcha’yı kullanabilmek için, <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a> sitesinde bir hesap oluşturmalısınız.',
+	'RECAPTCHA_INVISIBLE'				=> 'Bu CAPTCHA aslında görünmez. Çalıştığını doğrulamak için bu sayfanın sağ alt köşesinde küçük bir simge görünmelidir.',
+	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS'	=> 'İzin verilen en fazla giriş denemesi sayısını aştınız.<br>Kullanıcı adınız ve şifrenize ek olarak, görünmez reCAPTCHA v3, oturumunuzun kimliğini doğrulamak için kullanılacaktır.',	
 
 	'RECAPTCHA_PUBLIC'				=> 'Site anahtarı',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Site reCAPTCHA anahtarınız. Anahtarlar <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a> sitesinden edinilebilir. Lütfen, reCAPTCHA v2 &gt; Invisible (Görünmez) reCAPTCHA badge (rozet) türünü kullanın.',

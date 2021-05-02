@@ -2,7 +2,7 @@ Subject: Mesaj bildirisi - "{TOPIC_TITLE}"
 
 Merhaba {USERNAME},
 
-"{SITENAME}" mesaj panosunda "{POST_SUBJECT}" konulu mesaj bildirildiği için bu bildirimi alıyorsanız.
+"{SITENAME}" mesaj panosunda "{POST_SUBJECT}" konulu mesaj bildirildi.
 
 Eğer bildiriyi görüntülemek istiyorsanız, alttaki bağlantıya tıklayın:
 {U_VIEW_REPORT}
