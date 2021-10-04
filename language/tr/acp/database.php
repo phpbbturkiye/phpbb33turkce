@@ -70,7 +70,6 @@ $lang = array_merge($lang, array(
 	'START_RESTORE'			=> 'Geri yüklemeyi başlat',
 	'STORE_AND_DOWNLOAD'	=> 'Depola ve indir',
 	'STORE_LOCAL'		=> 'Dosyayı yerel olarak depola',
-	'STRUCTURE_ONLY'	=> 'Sadece yapı',
 	
 	'TABLE_SELECT'		=> 'Tablo seçimi',
 	'TABLE_SELECT_ERROR'	=> 'En az bir tablo seçmelisiniz.',
