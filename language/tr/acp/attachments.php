@@ -170,4 +170,5 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR_EXPLAIN'			=> 'Dosya ekleri için depolama yolu. Not: Eğer bu klasörü değiştirecekseniz, daha önceden sahip olduğunuz yüklenmiş dosya eklerini yeni konumlarına elle kopyalamalısınız.',
 	'UPLOAD_ICON'					=> 'Yükleme resmi',
 	'UPLOAD_NOT_DIR'				=> 'Belirtmiş olduğunuz yükleme konumu bir klasör gibi görünmüyor.',
+	'UPLOAD_POST_NOT_EXIST'			=> 'Mesaj mevcut olmadığı için “%1$s” dosyası %2$d numaralı mesaja yüklenemiyor.',	
 ));

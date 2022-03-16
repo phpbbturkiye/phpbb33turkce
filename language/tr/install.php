@@ -347,7 +347,7 @@ $lang = array_merge($lang, array(
 // Common updater messages
 $lang = array_merge($lang, array(
 	'UPDATE_INSTALLATION'			=> 'phpBB kurulumunu güncelle',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Bu seçenek ile, phpBB kurulumunuzu son sürüme güncellemek mümkündür.<br />İşlem sırasında tüm dosyalarınızın bütünlüğü kontrol edilecektir. Güncellemeden önce tüm farklılıkları ve dosyaları gözden geçirebilirsiniz.<br /><br />Dosya güncellemesi iki farklı yolla yapılabilir.</p><h2>Elle Güncelleme</h2><p>Bu seçenek ile dosya değişikliklerinizi kaybetmediğinize emin olmak için sadece değişecek dosyaları indirerek kişisel olarak ayarlayıp yapabilirsiniz. Bu paketi indirdikten sonra phpBB ana dizininizin altındaki doğru pozisyonlara elle yükleme yapmalısınız. İşlem tamamlandıktan sonra, dosyaları doğru yerlerine taşıyıp taşımadığınızı görmek için tekrar dosya kontrol aşamasını yapabilirsiniz.</p><h2>FTP ile Otomatik Güncelleme</h2><p>Bu metot ilkine benzer fakat değişecek dosyaları indirmenize ve onları kendinizin güncellemesine gerek yoktur. Bu işlem sizin için yapılacaktır. Bu metotu kullanmak için size FTP giriş bilgileriniz sorulacağından, bu bilgileri bilmeniz gerekmektedir. İşlem bittikten sonra herşeyin doğru olarak güncellendiğine emin olmak için tekrar dosya kontrol aşamasına yönlendirileceksiniz.<br /><br />',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Bu seçenek ile, phpBB kurulumunuzu son sürüme güncellemek mümkündür.<br />İşlem sırasında tüm dosyalarınızın bütünlüğü kontrol edilecektir. Güncellemeden önce tüm farklılıkları ve dosyaları gözden geçirebilirsiniz.<br /><br />Dosya güncellemesi iki farklı yolla yapılabilir.</p><h2>Elle Güncelleme</h2><p>Bu seçenek ile dosya değişikliklerinizi kaybetmediğinize emin olmak için sadece değişecek dosyaları indirerek kişisel olarak ayarlayıp yapabilirsiniz. Bu paketi indirdikten sonra phpBB ana dizininizin altındaki doğru pozisyonlara elle yükleme yapmalısınız. İşlem tamamlandıktan sonra, dosyaları doğru yerlerine taşıyıp taşımadığınızı görmek için tekrar dosya kontrol aşamasını yapabilirsiniz.</p><h2>FTP ile Gelişmiş Güncelleme</h2><p>Bu metot ilkine benzer fakat değişecek dosyaları indirmenize ve onları kendinizin güncellemesine gerek yoktur. Bu işlem sizin için yapılacaktır. Bu metotu kullanmak için size FTP giriş bilgileriniz sorulacağından, bu bilgileri bilmeniz gerekmektedir. İşlem bittikten sonra herşeyin doğru olarak güncellendiğine emin olmak için tekrar dosya kontrol aşamasına yönlendirileceksiniz.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Sürüm duyurusu</h1>
@@ -358,7 +358,7 @@ $lang = array_merge($lang, array(
 
 		<h1>Tam Paket ile kurulumunuz nasıl güncelleştirilir?</h1>
 
-		<p>Kurulumunuzu güncellemenin önerilen yolu Tam Paketi kullanmaktır. Eğer kurulumunuzdaki çekirdek phpBB dosyaları değiştirildiyse, bu değişiklikleri kaybetmemek için otomatik güncelleme paketini kullanmak isteyebilirsiniz. Ayrıca kurulumunuzu INSTALL.html belgesinde listelenen diğer yöntemleri kullanarak da güncelleyebilirsiniz. Tam paketi kullanarak phpBB3’ü güncellemek için adımlar:</p>
+		<p>Kurulumunuzu güncellemenin önerilen yolu Tam Paketi kullanmaktır. Eğer kurulumunuzdaki çekirdek phpBB dosyaları değiştirildiyse, bu değişiklikleri kaybetmemek için gelişmiş güncelleme paketini kullanmak isteyebilirsiniz. Ayrıca kurulumunuzu INSTALL.html belgesinde listelenen diğer yöntemleri kullanarak da güncelleyebilirsiniz. Tam paketi kullanarak phpBB3’ü güncellemek için adımlar:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li><strong class="error">Tüm mesaj panosu dosyalarının ve veritabanının yedeğini alın.</strong></li>
@@ -379,12 +379,12 @@ $lang = array_merge($lang, array(
 			<li>Stilinizi güncelleyin<br><br></li>
 		</ul>
 		
-		<h1>Otomatik Güncelleme Paketi ile kurulumunuz nasıl güncelleştirilir?</h1>
+		<h1>Gelişmiş Güncelleme Paketi ile kurulumunuz nasıl güncelleştirilir?</h1>
 
-		<p>Otomatik güncelleme paketi sadece kurulumunuzdaki çekirdek phpBB dosyalarında değişiklik yapıldığı durumlarda önerilir. Ayrıca kurulumunuzu INSTALL.html belgesi içerisinde belirtilen yöntemleri kullanarak da güncelleyebilirsiniz. Otomatik güncelleme paketi kullanarak phpBB3’ü güncellemek için adımlar:</p>
+		<p>Gelişmiş güncelleme paketi sadece uzman kullanıcılar için ve kurulumunuzdaki çekirdek phpBB dosyalarında değişiklik yapıldığı durumlarda önerilir. Ayrıca kurulumunuzu INSTALL.html belgesi içerisinde belirtilen yöntemleri kullanarak da güncelleyebilirsiniz. Gelişmiş güncelleme paketi kullanarak phpBB3’ü güncellemek için adımlar:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
-			<li><a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com indirme sayfasına</a> gidin ve "Otomatik Güncelleme Paketi" arşivini indirin.</li>
+			<li><a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com indirme sayfasına</a> gidin ve "Gelişmiş Güncelleme Paketi" arşivini indirin.</li>
 			<li>Arşiv dosyasını açın.</li>
 			<li>phpBB ana dizininize (config.php dosyanızın bulunduğu dizin) sıkıştırılmamış "install" ve "vendor" klasörlerinin tamamını yükleyin.<br><br></li>
 		</ol>

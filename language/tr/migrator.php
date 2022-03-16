@@ -77,5 +77,6 @@ $lang = array_merge($lang, array(
 	'PARENT_MODULE_FIND_ERROR'			=> 'Ana modül tanımlayıcı belirlenemedi: %s',
 	'PERMISSION_NOT_EXIST'				=> '"%s" izin ayarı beklenmedik bir şekilde mevcut değil.',
 
+	'ROLE_ASSIGNED_NOT_EXIST'			=> '"%1$s" grubuna atanan izin rolü beklenmedik bir şekilde mevcut değil. Rol id numarası: "%2$s"',
 	'ROLE_NOT_EXIST'					=> '"%s" izin rolü beklenmedik bir şekilde mevcut değil.',
 ));
