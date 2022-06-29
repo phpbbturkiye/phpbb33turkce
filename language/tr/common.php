@@ -425,6 +425,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE'			=> 'Mesaj',
 	'MESSAGES'			=> 'Mesajlar',
 	'MESSAGES_COUNT'		=> array(
+		0	=> 'sınırsız mesaj',	
 		1	=> '%d mesaj',
 	),	
 	'MESSAGE_BODY'		=> 'Mesaj gövdesi',
@@ -590,7 +591,7 @@ $lang = array_merge($lang, array(
 	'POSTS_UNAPPROVED_FORUM'=> 'Bu forumdaki en az bir mesaj onaylanmadı.',
 	'POST_BY_AUTHOR'	=> 'gönderen',
 	'POST_BY_FOE'			=> 'Bu mesaj <strong>%1$s</strong> tarafından oluşturuldu ve bu kullanıcı şu an sizin engellenenler listenizde.',
-	'POST_DISPLAY'			=> '%1$sMesajı görüntüleyin%2$s.',
+	'POST_DISPLAY'			=> 'Mesajı görüntüleyin',
 	'POST_DAY'				=> 'Ortalama her gün %.2f mesaj',
 	'POST_DELETED_ACTION'	=> 'Silinen mesaj:',
 	'POST_DELETED'			=> 'Bu mesaj silindi.',
