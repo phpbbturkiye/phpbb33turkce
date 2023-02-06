@@ -663,6 +663,10 @@ $lang = array_merge($lang, array(
 	'RETURN_TOPIC'				=> '%sSon ziyaret edilen başlığa dön%s',
 	'RETURN_TO'					=> '“%s” sayfasına dön',
 	'RETURN_TO_INDEX'			=> 'Ana sayfaya dön',
+
+	'ROUTE_NOT_FOUND'				=> 'İstenen “%s” rotası bulunamadı.',
+	'ROUTE_INVALID_MISSING_PARAMS'	=> '“%s” rotası için geçersiz veya eksik parametreler aktarıldı.',
+	
 	'FEED'						=> 'Besleme',
 	'FEED_NEWS'					=> 'Haberler',
 	'FEED_TOPICS_ACTIVE'		=> 'Aktif Başlıklar',

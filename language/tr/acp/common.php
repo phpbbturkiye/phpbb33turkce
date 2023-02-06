@@ -733,7 +733,11 @@ $lang = array_merge($lang, array(
 
  	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Arama indeksi oluşturuldu</strong><br />» %s',
  	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Arama indeksi silindi</strong><br />» %s',
-	'LOG_SPHINX_ERROR'			=> '<strong>Sphinx Hatası</strong><br />» %s',	
+	'LOG_SPHINX_ERROR'			=> '<strong>Sphinx Hatası</strong><br />» %s',
+
+	'LOG_SPAMHAUS_OPEN_RESOLVER'		=> 'Spamhaus, açık çözümleyici kullanan sorgulara izin vermez. Kara liste kontrolü devre dışı bırakıldı. Daha fazla bilgi için, şu bağlantıya bakın: https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+	'LOG_SPAMHAUS_VOLUME_LIMIT'			=> 'Spamhaus sorgu hacmi sınırı aşıldı. Kara liste kontrolü devre dışı bırakıldı. Daha fazla bilgi için, şu bağlantıya bakın: https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+	
 	'LOG_STYLE_ADD'				=> '<strong>Yeni stil eklendi</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Stil silindi</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Stil düzenlendi</strong><br />» %s',
