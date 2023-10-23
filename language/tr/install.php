@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 
 	// Introduction page
 	'INTRODUCTION_TITLE'	=> 'Giriş',
-	'INTRODUCTION_BODY'		=> 'phpBB3’e hoşgeldiniz!<br /><br />phpBB® dünyadaki açık kaynak mesaj panosu çözümlerinin en yaygın olarak kullanılanıdır. phpBB3 2000 yılında başlayan bir paket dizisinin en son bölümüdür. Bunlardan önce phpBB3 zengin özellikli, kullanıcı dostu, ve phpBB Takımı tarafından tam desteklenen bir yazılımdır. phpBB3, phpBB2’de yapılanlardan daha çok geliştirilmiştir, önceki sürümlerde bulunmayan popüler ve genellikle istenilen özellikler eklenmiştir. Umarız beklentilerinizi fazlasıyla karşılar.<br /><br />Bu kurulum sistemi phpBB3 kurulumu yaparken, geçmiş bir sürümden phpBB3’ün son sürümüne güncelleme yaparken, hem de farklı bir mesaj panosu sisteminden phpBB3’e dönüşüm yaparken (phpBB2 dahil) size rehberlik edecektir. Daha fazla bilgi için, sizi <a href="../docs/INSTALL.html">kurulum rehberini</a> okumaya teşvik ediyoruz.<br /><br />phpBB3 lisansını okumak için ya da destek almak hakkında bilgileri ve bizim bu konuda tutumlarımızı öğrenmek için, lütfen yan menüden ilgili seçenekleri seçin. Devam etmek için, lütfen yukarıdan uygun bir sekme seçin.',
+	'INTRODUCTION_BODY'		=> 'phpBB3’e hoşgeldiniz!<br /><br />phpBB® dünyadaki açık kaynak mesaj panosu çözümlerinin en yaygın olarak kullanılanıdır. phpBB3 2000 yılında başlayan bir paket dizisinin en son bölümüdür. Bunlardan önce phpBB3 zengin özellikli, kullanıcı dostu, ve phpBB Takımı tarafından tam desteklenen bir yazılımdır. phpBB3, phpBB2’de yapılanlardan daha çok geliştirilmiştir, önceki sürümlerde bulunmayan popüler ve genellikle istenilen özellikler eklenmiştir. Umarız beklentilerinizi fazlasıyla karşılar.<br /><br />Bu kurulum sistemi phpBB3 kurulumu yaparken, geçmiş bir sürümden phpBB3’ün son sürümüne güncelleme yaparken, hem de farklı bir mesaj panosu sisteminden phpBB3’e dönüşüm yaparken (phpBB2 dahil) size rehberlik edecektir. Daha fazla bilgi için, sizi <a href="%1$s">kurulum rehberini</a> okumaya teşvik ediyoruz.<br /><br />phpBB3 lisansını okumak için ya da destek almak hakkında bilgileri ve bizim bu konuda tutumlarımızı öğrenmek için, lütfen yan menüden ilgili seçenekleri seçin. Devam etmek için, lütfen yukarıdan uygun bir sekme seçin.',
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Destek',
@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'PHP sürümü',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB, PHP 7.1.3 ya da üst sürümünü gerektirir.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB, PHP 7.2.0 ya da üst sürümünü gerektirir.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'PHP getimagesize() fonksiyonu gerekmektedir',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'phpBB’nin düzgün bir şekilde çalışması için, getimagesize fonksiyonu mevcut olmalıdır.',
 	'PCRE_UTF_SUPPORT'					=> 'PCRE UTF-8 desteği',
@@ -508,10 +508,12 @@ $lang = array_merge($lang, array(
 	'CHECK_TABLE_PREFIX'		=> 'Lütfen tablo önekini kontrol edin ve tekrar deneyin.',
 
 	// Conversion in progress
+	'CATEGORY'					=> 'Kategori',
 	'CONTINUE_CONVERT'			=> 'Dönüştürmeye devam et',
 	'CONTINUE_CONVERT_BODY'     => 'Önceki bir dönüştürme denemesi belirlendi. Şimdi, yeni bir dönüştürme başlatmak ya da dönüştürmeye devam etmek arasında bir seçim yapabilirsiniz.',
 	'CONVERT_NEW_CONVERSION'    => 'Yeni dönüştürme',
 	'CONTINUE_OLD_CONVERSION'   => 'Önceki başlatılan dönüştürmeye devam et',
+	'POST_ID'					=> 'Mesaj ID numarası',
 
 	// Start conversion
 	'SUB_INTRO'					=> 'Giriş',
@@ -568,6 +570,10 @@ $lang = array_merge($lang, array(
 	'CONVERT_COMPLETE'			=> 'Dönüştürme tamamlandı',
 	'CONVERT_COMPLETE_EXPLAIN'	=> 'Mesaj panonuzu phpBB 3.3’e başarıyla dönüştürdünüz. Şimdi giriş yapabilir ve <a href="../">mesaj panonuza erişebilirsiniz</a>. Lütfen install dizinini silerek mesaj panonuzu aktif etmeden önce, ayarların doğru şekilde transfer edildiğine emin olun. Unutmayın, phpBB kullanımı için çevrimiçi yardım <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">Dokümantasyon</a> ve <a href="https://www.phpbb.com/community/viewforum.php?f=661">destek forumlarında</a> mevcuttur.',
 
+	'COLLIDING_CLEAN_USERNAME'			=> '<strong>%s</strong> şunun için temiz kullanıcı adıdır:',
+	'COLLIDING_USER'					=> '» kullanıcı id numarası: <strong>%d</strong> kullanıcı adı: <strong>%s</strong> (%d posts)',
+	'COLLIDING_USERNAMES_FOUND'			=> 'Eski mesaj panonuzda çakışan kullanıcı adları bulundu. Dönüştürmeyi tamamlamak için lütfen bu kullanıcıları silin veya yeniden adlandırın; böylece eski mesaj panonuzda her temiz kullanıcı adı için yalnızca bir kullanıcı olacaktır.',
+	'CONV_ERR_FATAL'					=> 'Önemli dönüştürme hatası',
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'Eski mesaj panonuzda dosya ekleri için FTP yüklemesi açık. Lütfen FTP yükleme seçeneğini kapatın ve geçerli bir dizin belirlendiğine emin olun, daha sonra tüm dosya eki dosyalarını bu yeni web erişilebilirliği olan dizine kopyalayın. Bunu yaptıktan sonra, dönüştürücüyü yeniden başlatın.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Dönüştürme için hiç bir konfigürasyon bilgisi mevcut değil.',
 	'CONV_ERROR_FORUM_ACCESS'			=> 'Forum erişim bilgilerine ulaşılamıyor.',

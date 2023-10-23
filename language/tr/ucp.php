@@ -116,7 +116,7 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY'					=> 'Doğum günü',
 	'BIRTHDAY_EXPLAIN'			=> 'Doğum gününüzün olduğu yılı ayarladığınız zaman yaşınız listelenecektir.',
 	'BOARD_DATE_FORMAT'			=> 'Zaman formatı',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'PHP <a href="https://secure.php.net/manual/function.date.php">date()</a> fonksiyonu ile aynı sözdizimi kullanılır.',
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Sözdizimi, PHP <a href="https://www.php.net/manual/datetime.format.php">tarih işlevleriyle</a> aynı biçimi kullanır.',
 	'BOARD_LANGUAGE'			=> 'Dil',
 	'BOARD_STYLE'				=> 'Mesaj panosu stili',
 	'BOARD_TIMEZONE'			=> 'Zaman dilimi',

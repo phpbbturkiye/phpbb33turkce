@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_NEVER'				=> 'Asla',
 	'ACL_SET'				=> 'İzinleri ayarla',
-	'ACL_SET_EXPLAIN'		=> 'İzinler <strong>EVET</strong>/<strong>HAYIR</strong> üzerine kurulu basit bir sistemdir. <strong>ASLA</strong> seçeneği kullanıcı ya da kullanıcı grupları için işaretlendiğinde diğer tüm değerlerin yerini alır. Eğer bu değerlerin kullanıcılar ya da kullanıcı gruplarındaki ayarların yerini almasını istemiyorsanız <strong>HAYIR</strong> seçeneğini seçin. Eğer değerler bu seçenek için başka bir yerde ayarlanırsa tercih olarak seçilen kabul edilecektir, aksi takdirde <strong>ASLA</strong> olarak kabul edilecektir. Tüm ögeler (önlerindeki seçme kutusuyla) işaretlendiğinde, belirlediğiniz izin ayarı kopyalanacaktır.',
+	'ACL_SET_EXPLAIN'		=> 'İzinler <strong>EVET</strong>/<strong>HAYIR</strong> üzerine kurulu basit bir sistemdir. <strong>ASLA</strong> seçeneği kullanıcı ya da kullanıcı grupları için işaretlendiğinde diğer tüm değerlerin yerini alır. Eğer bu değerlerin kullanıcılar ya da kullanıcı gruplarındaki ayarların yerini almasını istemiyorsanız <strong>HAYIR</strong> seçeneğini seçin. Eğer değerler bu seçenek için başka bir yerde ayarlanırsa tercih olarak seçilen kabul edilecektir, aksi takdirde <strong>ASLA</strong> olarak kabul edilecektir. Tüm ögeler (önlerindeki seçme kutusuyla) işaretlendiğinde, belirlediğiniz izin ayarı kopyalanacaktır. Yönetici izinleri kurucular için her zaman <strong>EVET</strong> olarak ayarlandığından, kurucu hesapları için yönetim izinlerini ayarlamanın herhangi bir etkisi olmayacağını lütfen unutmayın.',
 	'ACL_SETTING'			=> 'Ayar',
 
 	'ACL_TYPE_A_'			=> 'Yönetim izinleri',

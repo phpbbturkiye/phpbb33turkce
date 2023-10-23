@@ -167,6 +167,10 @@ $lang = array_merge($lang, array(
 	'CHARACTERS'			=> array(
 		1	=> '%d karakter',
 	),
+	// Special version to be used when describing ranges e.g. "min x characters and max y characters"
+	'CHARACTERS_XY'			=> array(
+		1	=> '%d karakter',
+	),	
 	'COLLAPSE_VIEW'			=> 'Dar görünüm',
 	'CLOSE_WINDOW'			=> 'Pencereyi kapat',
 	'CODE'					=> 'Kod',	

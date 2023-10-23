@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'BOARD_STYLE'					=> 'Mesaj panosu stili',	
 	'CUSTOM_DATEFORMAT'				=> 'Özel…',
 	'DEFAULT_DATE_FORMAT'			=> 'Tarih formatı',
-	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Tarih formatı PHP <code><a href="https://secure.php.net/manual/function.date.php">date()</a></code> fonksiyonu ile aynıdır.',
+	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Sözdizimi PHP <a href="https://www.php.net/manual/datetime.format.php">tarih işlevleriyle</a> aynı biçimi kullanır.',
 	'DEFAULT_LANGUAGE'				=> 'Varsayılan dil',
 	'DEFAULT_STYLE'					=> 'Varsayılan stil',
 	'DEFAULT_STYLE_EXPLAIN'			=> 'Yeni kullanıcılar için varsayılan stil.',	

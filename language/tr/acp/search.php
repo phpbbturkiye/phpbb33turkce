@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'DEFAULT_SEARCH_RETURN_CHARS'			=> 'Varsayılan döndürülen karakter sayısı',
 	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN'	=> 'Arama sırasında döndürülecek varsayılan karakter sayısı. 0 değeri mesajın tamamını döndürecektir.',
 	'DELETE_INDEX'							=> 'İndeksi sil',
-	'DELETING_INDEX_IN_PROGRESS'			=> 'İndeks silinmesi işlemde',
+	'DELETING_INDEX_IN_PROGRESS'			=> 'İndeksin silinme işlemi devam ediyor…',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Arama uygulaması şu anda indeksleri siliyor. Bu işlem bir kaç dakika sürebilir.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'MySQL tam metin uygulaması sadece MySQL4 ve üzeri sürümlerde kullanılabilir.',
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'GO_TO_SEARCH_INDEX'					=> 'Arama indeks sayfasına git',
 
 	'INDEX_STATS'							=> 'İndeks İstatistikleri',
-	'INDEXING_IN_PROGRESS'					=> 'İndeksleme işlemde',
+	'INDEXING_IN_PROGRESS'					=> 'İndeksleme işlemi devam ediyor…',
 	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'Arama uygulaması panonuzdaki tüm mesajları şu an indeksliyor. Bu işlem panonuzun boyutuna bağlı olarak bir kaç dakika ya da bir kaç saat sürebilir.',
 
 	'LIMIT_SEARCH_LOAD'						=> 'Arama sayfası sistem yüklenme sınırı',
@@ -100,8 +100,8 @@ $lang = array_merge($lang, array(
 
 	'MAX_SEARCH_CHARS'						=> 'Aramada indekslenecek en yüksek karakter',
 	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Aramada indekslenecek kelimeler bundan fazla olmayacaktır.',
-	'MAX_NUM_SEARCH_KEYWORDS'            => 'En fazla izin verilen anahtar kelime sayısı',
-	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'      => 'Kullanıcıların arama yaparken kullanabilecekleri en fazla kelime sayısı. 0 değeri sınırsız sayıda kelimelere izin verir.',
+	'MAX_NUM_SEARCH_KEYWORDS'            	=> 'En fazla izin verilen anahtar kelime sayısı',
+	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'      	=> 'Kullanıcıların arama yaparken kullanabilecekleri en fazla kelime sayısı. 0 değeri sınırsız sayıda kelimelere izin verir.',
 	'MIN_SEARCH_CHARS'						=> 'Aramada indekslenecek en düşük karakter',
 	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Aramada indekslenecek kelimeler bundan düşük olmayacaktır.',
 	'MIN_SEARCH_AUTHOR_CHARS'				=> 'En düşük yazar adı karakteri',
@@ -112,19 +112,20 @@ $lang = array_merge($lang, array(
 	'SEARCH_GUEST_INTERVAL'					=> 'Misafir arama flood aralığı',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Misafirlerin aramaları arasında beklemesi gereken saniye sayısı. Eğer bir misafir arama yaparsa diğer tüm misafirler zaman aralığı dolana kadar bekleyecektir.',
 	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
-		1	=> 'Tüm mesajlar %2$d mesaj id numarasına kadar indekslendi, bu adımda %1$d mesaj indekslendi.<br />',
+		1	=> 'Tüm mesajlar %2$d mesaj id numarasına kadar indekslendi, bu adımda %1$d mesaj indekslendi.',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
-		1	=> 'Geçerli indeksleme hızı saniyede yaklaşık %1$.1f mesaj.<br />İndeksleme işlemi devam ediyor…',
+		1	=> 'Geçerli indeksleme hızı saniyede yaklaşık %1$.1f mesaj.',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		1	=> 'Tüm mesajlar %2$d mesaj id numarasına kadar arama indeksinden kaldırıldı, bu adımda %1$d mesaj kaldırıldı.<br />',
+		1	=> 'Tüm mesajlar %2$d mesaj id numarasına kadar arama indeksinden kaldırıldı, bu adımda %1$d mesaj kaldırıldı.',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
-		1	=> 'Geçerli silme hızı saniyede yaklaşık %1$.1f mesaj.<br />Silme işlemi devam ediyor…',		
+		1	=> 'Geçerli silme hızı saniyede yaklaşık %1$.1f mesaj.',		
 	),
-	'SEARCH_INDEX_CREATED'					=> 'Pano veritabanındaki tüm mesajlar başarıyla indekslendi',
-	'SEARCH_INDEX_REMOVED'					=> 'Bu uygulama için arama indeksi başarıyla silindi',
+	'SEARCH_INDEX_CREATED'					=> 'Mesaj panosu veritabanındaki tüm mesajlar başarıyla indekslendi.',
+	'SEARCH_INDEX_PROGRESS'					=> 'Tamamlandı: %1$d | Bekleyen: %2$d | Toplam: %3$d',	
+	'SEARCH_INDEX_REMOVED'					=> 'Bu uygulama için arama indeksi başarıyla silindi.',
 	'SEARCH_INTERVAL'						=> 'Kullanıcı arama flood aralığı',
 	'SEARCH_INTERVAL_EXPLAIN'				=> 'Kullanıcıların aramaları arasında beklemesi gereken saniye sayısı. Bu aralık her kullanıcı için birbirinden bağımsız kontrol edilir.',
 	'SEARCH_STORE_RESULTS'					=> 'Arama sonucu önbellek süresi',
