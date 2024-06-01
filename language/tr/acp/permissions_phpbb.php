@@ -159,9 +159,9 @@ $lang = array_merge($lang, array(
 	'ACL_M_MERGE'	=> 'Başlıkları birleştirebilir',
 
 	'ACL_M_INFO'		=> 'Mesaj ayrıntılarını görebilir',
-	'ACL_M_WARN'		=> 'Uyarılar verebilir<br /><em>Bu ayar sadece genel olarak tanımlıdır. Forum bazlı değildir.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_PM_REPORT'	=> 'Özel mesaj bildirilerini kapatabilir ve silebilir<br /><em>Bu ayar sadece genel olarak tanımlıdır. Forum bazlı değildir.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_BAN'			=> 'Yasaklamaları yönetebilir<br /><em>Bu ayar sadece genel olarak tanımlıdır. Forum bazlı değildir.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_WARN'		=> 'Uyarılar verebilir',
+	'ACL_M_PM_REPORT'	=> 'Özel mesaj bildirilerini kapatabilir ve silebilir',
+	'ACL_M_BAN'			=> 'Yasaklamaları yönetebilir',
 ));
 
 // Admin Permissions

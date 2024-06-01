@@ -258,7 +258,7 @@ $lang = array_merge($lang, array(
 	'ONLY_TOPIC'			=> 'Sadece “%s” başlığı',
 	'OTHER_USERS'			=> 'Bu IP adresinden mesaj gönderen diğer kullanıcılar',
 
-	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s hızlı yönetim için izinli değil",
+	'QUICKMOD_ACTION_NOT_ALLOWED' => '%s hızlı yönetim için izinli değil',
 
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'Seçilen ÖM bildirisi başarıyla kapatıldı.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'Seçilen ÖM bildirisi başarıyla silindi.',

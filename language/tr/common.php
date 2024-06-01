@@ -64,6 +64,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_DEACTIVATED'			=> 'Hesabınız manuel olarak deaktif edildi ve sadece bir yönetici tarafından yeniden aktif edilebilir.',
 	'ACP'							=> 'Yönetim Kontrol Paneli',
 	'ACP_SHORT'						=> 'YKP',
+	'ACTIVATION_ALREADY_SENT'		=> 'Aktivasyon e-postası zaten e-posta adresinize gönderildi. 24 saat sonra tekrar deneyebilirsiniz. Hesabınızı aktifleştirme konusunda sorun yaşamaya devam ederseniz, lütfen bir mesaj panosu yöneticisiyle iletişime geçin.',
 	'ACTIVE'				=> 'aktif',
 	'ACTIVE_ERROR'				=> 'Belirtilen kullanıcı adı şu anda aktif değil. Eğer hesabınızı aktifleştirmeyle ilgili probleminiz varsa, lütfen bir mesaj panosu yöneticisi ile iletişime geçin.',
 	'ADMINISTRATOR'				=> 'Yönetici',
