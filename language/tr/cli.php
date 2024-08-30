@@ -108,6 +108,8 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Yeni kullanıcıya hesap aktivasyon e-postası gönder (varsayılan olarak gönderilmez)',
 	'CLI_DESCRIPTION_USER_DELETE'				=> 'Bir kullanıcı hesabını sil.',
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Silinecek kullanıcının kullanıcı adı',
+	'CLI_DESCRIPTION_USER_DELETE_ID'			=> 'Kullanıcı hesaplarını ID numarasına göre sil.',
+	'CLI_DESCRIPTION_USER_DELETE_ID_OPTION_ID'	=> 'Silinecek kullanıcıların kullanıcı ID numaraları',	
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Bu kullanıcı tarafından gönderilen tüm mesajları sil. Bu seçenek seçilmezse, kullanıcı’nın mesajları tutulacaktır.',
 	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Kullanıcı adlarını yeniden temizle.',
 
@@ -155,10 +157,14 @@ $lang = array_merge($lang, array(
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Oluşturulacak hiç bir küçük resim yok.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Silinecek hiç bir küçük resim yok.',
 
-	'CLI_USER_ADD_SUCCESS'		=> '%s kullanıcısı başarıyla eklendi.',
-	'CLI_USER_DELETE_CONFIRM'	=> '‘%s’ kullanıcısını silmek istediğinize emin misiniz? [e/H]',
-	'CLI_USER_RECLEAN_START'	=> 'Kullanıcı adları yeniden temizleniyor',
-	'CLI_USER_RECLEAN_DONE'		=> [
+	'CLI_USER_ADD_SUCCESS'			=> '%s kullanıcısı başarıyla eklendi.',
+	'CLI_USER_DELETE_CONFIRM'		=> '‘%s’ kullanıcısını silmek istediğinize emin misiniz? [e/H]',
+	'CLI_USER_DELETE_ID_CONFIRM'	=> '‘%s’ kullanıcı ID numarasını silmek istediğinize emin misiniz? [e/H]',
+	'CLI_USER_DELETE_ID_SUCCESS'	=> 'Kullanıcı ID numaraları başarıyla silindi.',
+	'CLI_USER_DELETE_ID_START'		=> 'ID numarasına göre kullanıcılar siliniyor',
+	'CLI_USER_DELETE_NONE'			=> 'ID numarasına göre hiç bir kullanıcı silinemedi.',
+	'CLI_USER_RECLEAN_START'		=> 'Kullanıcı adları yeniden temizleniyor',
+	'CLI_USER_RECLEAN_DONE'			=> [
 		0	=> 'Yeniden temizlenme tamamlandı. Temizlenmesi gereken herhangi bir kullanıcı yok.',
 		1	=> 'Yeniden temizlenme tamamlandı. %d kullanıcı temizlendi.',
 	],	
