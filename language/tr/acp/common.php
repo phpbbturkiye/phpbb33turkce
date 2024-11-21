@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 	'ACP_COOKIE_SETTINGS'		=> 'Çerez ayarları',
 	'ACP_CONTACT'				=> 'İletişim sayfası',
 	'ACP_CONTACT_SETTINGS'		=> 'İletişim sayfası ayarları',	
-	'ACP_CRITICAL_LOGS'			=> 'Hata kaydı',
+	'ACP_CRITICAL_LOGS'			=> 'Hata kayıtları',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Özel profil alanları',
 	
 	'ACP_DATABASE'				=> 'Veritabanı yönetimi',
@@ -135,7 +135,7 @@ $lang = array_merge($lang, array(
 	'ACP_MESSAGES'				=> 'Mesajlar',
 	'ACP_MESSAGE_SETTINGS'		=> 'Özel mesaj ayarları',
 	'ACP_MODULE_MANAGEMENT'		=> 'Modül yönetimi',
-	'ACP_MOD_LOGS'				=> 'Moderatör kaydı',
+	'ACP_MOD_LOGS'				=> 'Moderatör kayıtları',
 	'ACP_MOD_ROLES'				=> 'Moderatör rolleri',
 	
 	'ACP_NO_ITEMS'            => 'Henüz hiç bir öge yok.',
@@ -551,9 +551,9 @@ $lang = array_merge($lang, array(
 	'LOG_BOT_DELETE'	=> '<strong>Bot silindi</strong><br />» %s',
 	'LOG_BOT_UPDATED'	=> '<strong>Var olan bot güncellendi</strong><br />» %s',
 
-	'LOG_CLEAR_ADMIN'		=> '<strong>Yönetici kaydı temizlendi</strong>',
-	'LOG_CLEAR_CRITICAL'	=> '<strong>Hata kaydı temizlendi</strong>',
-	'LOG_CLEAR_MOD'			=> '<strong>Moderatör kaydı temizlendi</strong>',
+	'LOG_CLEAR_ADMIN'		=> '<strong>Yönetici kayıtları temizlendi</strong>',
+	'LOG_CLEAR_CRITICAL'	=> '<strong>Hata kayıtları temizlendi</strong>',
+	'LOG_CLEAR_MOD'			=> '<strong>Moderatör kayıtları temizlendi</strong>',
 	'LOG_CLEAR_USER'		=> '<strong>Kullanıcı kaydı temizlendi</strong><br />» %s',
 	'LOG_CLEAR_USERS'		=> '<strong>Kullanıcı kayıtları temizlendi</strong>',
 

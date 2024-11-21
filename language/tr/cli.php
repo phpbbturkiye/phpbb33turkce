@@ -75,6 +75,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Geçerli text_formatter servisi ile depolanan metni yeniden ayrıştırır.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Yeniden ayrıştırma için metin türü. Her şeyi yeniden ayrıştırmak için boş bırakın.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Herhangi bir değişikliği kaydetmeyin; sadece olacak şeyleri yazdırın',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_FORCE_BBCODE'	=> 'Tüm BBCodeları istisnasız yeniden ayrıştırın. Daha önce devre dışı bırakılan BBCodeların yeniden işleneceğini, etkinleştirileceğini ve tamamının oluşturulacağını unutmayın.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'İşlem için en düşük kayıt ID numarası',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'İşlem için en yüksek kayıt ID numarası',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Bir kerede işlemek için yaklaşık kayıt sayısı',

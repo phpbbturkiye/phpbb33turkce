@@ -47,8 +47,9 @@ $lang = array_merge($lang, array(
 
 	'DETAILS'				=> 'Ayrıntılar',
 
-	'EXTENSIONS_DISABLED'	=> 'Devre dışı bırakılan Eklentiler',
-	'EXTENSIONS_ENABLED'	=> 'Etkinleştirilen Eklentiler',
+	'EXTENSIONS_NOT_INSTALLED'	=> 'Kurulmamış Eklentiler',
+	'EXTENSIONS_DISABLED'		=> 'Devre dışı bırakılan Eklentiler',
+	'EXTENSIONS_ENABLED'		=> 'Etkinleştirilen Eklentiler',
 
 	'EXTENSION_DELETE_DATA'	=> 'Veriyi sil',
 	'EXTENSION_DISABLE'		=> 'Devre dışı bırak',

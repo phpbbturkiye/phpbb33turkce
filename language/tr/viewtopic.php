@@ -110,7 +110,8 @@ $lang = array_merge($lang, array(
 	'VIEW_INFO'				=> 'Mesaj ayrıntıları',
 	'VIEW_NEXT_TOPIC'		=> 'Sonraki başlık',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Önceki başlık',
-	'VIEW_RESULTS'			=> 'Sonuçları Görüntüle',
+	'VIEW_QUOTED_POST'		=> 'Alıntı yapılan mesajı görüntüle',	
+	'VIEW_RESULTS'			=> 'Sonuçları görüntüle',
 	'VIEW_TOPIC_POSTS'		=> array(
 		1	=> '%d mesaj',
 	),
