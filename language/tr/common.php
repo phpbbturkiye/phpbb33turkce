@@ -349,6 +349,7 @@ $lang = array_merge($lang, array(
 	'HIDE_ME'					=> 'Bu oturumda çevrimiçi olduğumu gizle',
 	'HOURS'						=> 'Saat',
 	'HOME'						=> 'Ana sayfa',
+	'HTTP_HANDLER_NOT_FOUND'		=> 'cURL PHP uzantısı ile allow_url_fopen PHP ini ayarı devre dışı bırakıldığından ve başka bir HTTP işleyicisi bulunamadığından işlem tamamlanamadı.',	
 
 	'ICQ'						=> 'ICQ',
 	'IF'						=> 'Eğer',

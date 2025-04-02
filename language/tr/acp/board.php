@@ -492,8 +492,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'phpBB ana klasörünüzün alt yolu, ör: <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Uzantı grup ikonlarının saklandığı klasör',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'phpBB ana klasörünüzün alt yolu, ör: <samp>images/upload_icons</samp>.',
-	'USE_SYSTEM_CRON'		=> 'Sistem kronundan periyodik görevleri çalıştır',
-	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Kapalı olduğu zaman, phpBB otomatik olarak çalışması için periyodik görevleri ayarlayacaktır. Açık olduğu zaman ise, phpBB kendisi tarafından herhangi bir periyodik görev zamanlaması yapmayacaktır; bir sistem yöneticisi düzenli aralıklarda (ör. her 5 dakikada bir) sistem kron aracı tarafından çalıştırılması için <code>bin/phpbbcli.php cron:run</code> ayarını yapmalıdır.',
+	'USE_SYSTEM_CRON'		=> 'İşletim sistemi cronundan periyodik görevleri çalıştır',
+	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Kapalı olduğu zaman, phpBB otomatik olarak çalışması için periyodik görevleri ayarlayacaktır. Etkinleştirildiğinde ise, phpBB kendisi tarafından herhangi bir periyodik görev zamanlaması yapmayacaktır; bir sistem yöneticisi düzenli aralıklarda (ör. her 5 dakikada bir) işletim sistemi cron aracı tarafından çalıştırılması için <code>bin/phpbbcli.php cron:run</code> ayarını yapmalıdır.',
 ));
 
 // Security Settings
