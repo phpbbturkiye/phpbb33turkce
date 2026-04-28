@@ -84,6 +84,7 @@ $lang = array_merge($lang, array(
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB zaten kuruldu.',
 	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB henüz kurulmadı.',
+	'INSTALL_RESTART'				=> 'Kurulumu yeniden başlat',	
 ));
 
 // Requirements translation

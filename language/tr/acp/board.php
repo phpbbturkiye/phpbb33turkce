@@ -296,8 +296,8 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_OVERALL_FORUMS'			=> 'Forumlar beslemesini aç',
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> '“Tüm forumlar” beslemesi açıldığında forumların bir listesi gösterilir.',
 
-	'ACP_FEED_HTTP_AUTH'				=> 'HTTP Doğrulamasına izin ver',
-	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'HTTP doğrulaması açıldığında, besleme URLsinin başına <samp>auth=http</samp> parametresi eklenerek misafir kullanıcılardan içerik gizlenip normal kullanıcıların içerik almasına izin verilir. Not: Bazı PHP ayarları .htaccess dosyasında ilave değişiklikler yapmayı zorunlu tutar. Açıklamalar o dosyanın içinde bulunabilir.',
+	'ACP_FEED_HTTP_AUTH'				=> 'HTTP Kimlik Doğrulamasına izin ver',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'HTTP kimlik doğrulaması açıldığında, kullanıcıların besleme URLsine <samp>auth=http</samp> parametresi eklenerek misafirlerden gizlenmiş içeriğe erişmeleri sağlanır. Bazı PHP yapılandırmalarının .htaccess dosyasında ek değişiklikler gerektirebileceğini lütfen unutmayın; yönergeler için lütfen o dosyaya bakın. HTTP kimlik doğrulaması yalnızca şifrelenmiş (https) bağlantılar üzerinden desteklenir.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Öge istatistikleri',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Besleme ögelerinin altında özel istatistikler gösterilir<br>(ör. mesajı gönderen, tarih ve saat, cevaplar, görüntülemeler)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Bu forumları hariç tut',
