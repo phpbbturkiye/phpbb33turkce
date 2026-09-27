@@ -101,7 +101,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
 	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'					=> 'Google',
-	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'Twitter',
+	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'X',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'OAuth belirteci (OAuth token) yüklenemedi.',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'OAuth belirteci (OAuth token) hatalı olarak yüklendi.',	
 	'AVATAR_DISALLOWED_CONTENT'      => 'Yükleme kabul edilmedi. Çünkü yüklenen dosya olası bir saldırı taşıyıcısı olarak belirlendi.',
@@ -332,6 +332,7 @@ $lang = array_merge($lang, array(
 		1	=> '%d misafir',
 	),
 	'G_ADMINISTRATORS'			=> 'Yöneticiler',
+	'G_AI_CRAWLERS'				=> 'Yapay Zeka Tarayıcıları',	
 	'G_BOTS'					=> 'Botlar',
 	'G_GUESTS'					=> 'Misafirler',
 	'G_REGISTERED'				=> 'Kayıtlı kullanıcılar',
@@ -500,6 +501,9 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '%1$s tarafından <strong>başlık onay</strong> isteği geldi:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> '"%s" bildirim tipi dosya sisteminde mevcut değil.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'Yeni kayıtlı ya da deaktif edilmiş kullanıcı için <strong>aktivasyon gerekiyor</strong>: “%1$s”',
+	'NOTIFICATION_UPDATE_CRITICAL'		=> '<strong>phpBB %2$s güncellemesi mevcut - Kritik güncelleme gerekli</strong>: Mesaj panonuz %1$s sürümünde çalışıyor; kritik güvenlik düzeltmelerini içeren yeni bir sürümün derhal yüklenmesi gerekiyor.',
+	'NOTIFICATION_UPDATE_MAINTENANCE'	=> '<strong>phpBB %2$s güncellemesi mevcut</strong>: Mesaj panonuz %1$s sürümünde çalışıyor ve yeni bir sürüm mevcut.',
+	'NOTIFICATION_UPDATE_SECURITY'		=> '<strong>phpBB %2$s güncellemesi mevcut - Güvenlik güncellemesi</strong>: Mesaj panonuz %1$s sürümünde çalışıyor ve güvenlik düzeltmelerini içeren yeni bir sürüm mevcut. Mesaj panonuzun güvenliğini ve korunmasını sağlamak için yeni sürüme güncelleme yapmanızı öneririz.',	
 	// Used in conjunction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'diğer kişiler',
 	'NOTIFICATION_X_OTHERS'				=> array(
@@ -822,7 +826,7 @@ $lang = array_merge($lang, array(
 		1	=> 'Toplam <strong>%d</strong> üye',
 	),
 	'TRACKED_PHP_ERROR'	=> 'İzlenen PHP hataları: %s',
-	'TWITTER'			=> 'Twitter',	
+	'TWITTER'			=> 'X',	
 
 	'UNABLE_GET_IMAGE_SIZE'	=> 'Resmin boyutlarının belirlenmesi mümkün değil. Lütfen girmiş olduğunuz URL adresinin doğruluğunu kontrol edin.',
 	'UNABLE_TO_DELIVER_FILE'=> 'Dosya teslim edilemiyor.',

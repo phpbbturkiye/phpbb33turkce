@@ -1,0 +1,14 @@
+Subject: phpBB {NEW_VERSION} güncellemesi mevcut - "{SITENAME}" için kritik güncelleme gerekiyor
+
+Merhaba {USERNAME},
+
+Bu bildirim, phpBB kurulumunuz için kritik bir güvenlik güncellemesinin yayınlandığını ve bu güncellemenin derhal yüklenmesi gerektiğini size haber vermek amacıyla gönderilmiştir.
+
+Mevcut sürümünüz {CURRENT_VERSION} olup, kritik güvenlik düzeltmelerini içeren yeni bir sürüm kullanıma sunulmuştur. Kurulumunuzun güvenli ve koruma altında kalmasını sağlamak için mesaj panonuzu derhal mevcut en son sürüm olan {NEW_VERSION} sürümüne yükseltmenizi öneririz.
+
+Sürüm ayrıntılarını, phpBB kurulumunuzun Yönetici Kontrol Panelinde görüntüleyebilirsiniz.
+{U_BOARD}
+
+Güncelleme süreciyle ilgili yardım almak için lütfen phpBB belgelerine bakın veya phpBB destek forumlarını ziyaret edin.
+
+{EMAIL_SIG}

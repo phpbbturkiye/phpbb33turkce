@@ -146,6 +146,6 @@ $lang = array_merge($lang, array(
 	'VIEWING_PROFILE'		=> 'Profil görüntüleniyor - %s',
 	'VIEW_FACEBOOK_PROFILE'	=> 'Facebook Profilini görüntüle',
 	'VIEW_SKYPE_PROFILE'	=> 'Skype Profilini görüntüle',
-	'VIEW_TWITTER_PROFILE'	=> 'Twitter Profilini görüntüle',
+	'VIEW_TWITTER_PROFILE'	=> 'X Profilini görüntüle',
 	'VIEW_YOUTUBE_PROFILE'	=> 'YouTube Profilini görüntüle',	
 ));

@@ -347,6 +347,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_REPORT_PM_CLOSED'				=> 'Bir özel mesajdaki bildiriniz bir moderatör tarafından kapatıldı',	
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Abonesi olduğunuz foruma bir başlık oluşturuldu',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Kullanıcı aktivasyonu gerekiyor',
+	'NOTIFICATION_TYPE_UPDATE_MAINTENANCE'				=> 'phpBB güncelleme bildirimleri',	
 
 	'NOTIFY_METHOD'					=> 'Bildirim metotu',
 	'NOTIFY_METHOD_BOTH'			=> 'Her ikisi',

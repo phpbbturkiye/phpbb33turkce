@@ -1,0 +1,14 @@
+Subject: "{SITENAME}" için phpBB {NEW_VERSION} güncellemesi mevcut
+
+Merhaba {USERNAME},
+
+Bu bildirim, phpBB kurulumunuz için yeni bir güncellemenin mevcut olduğunu size haber vermek amacıyla gönderilmiştir.
+
+Şu an {CURRENT_VERSION} sürümünü kullanıyorsunuz. Son olarak ise {NEW_VERSION} sürümü yayınlandı. En yüksek güvenlik, kararlılık ve performans düzeyini sağlamak için mesaj panonuzu güncel tutmanız önemle tavsiye edilir.
+
+Sürüm ayrıntılarını, phpBB kurulumunuzun Yönetici Kontrol Panelinde görüntüleyebilirsiniz.
+{U_BOARD}
+
+Güncelleme süreciyle ilgili yardım almak için lütfen phpBB belgelerine bakın veya phpBB destek forumlarını ziyaret edin.
+
+{EMAIL_SIG}

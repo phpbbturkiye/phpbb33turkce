@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Destek',
-	'SUPPORT_BODY'		=> 'phpBB3’ün şu anki sabit sürümü için ücretsiz, tam destek sağlanacaktır. Destek, şu konuları kapsar:</p><ul><li>kurulum</li><li>ayarlar</li><li>teknik sorular</li><li>yazılımdaki olası hatalara bağlı problemler</li><li>Release Candidate (RC) sürümlerinden son sabit sürüme güncelleme</li><li>phpBB 2.0.x sürümlerinden phpBB3 sürümüne dönüştürme</li><li>diğer mesaj panosu yazılımlarından phpBB3’e dönüştürme (lütfen <a href="https://www.phpbb.com/community/viewforum.php?f=486">Dönüştürücüler Forumuna</a> bakın)</li></ul><p>Hala phpBB3’ün beta sürümlerini kullanan kullanıcıların kurulumlarını, son sürümün yeni kopyası ile değiştirmeye teşvik ediyoruz.</p><h2>Eklentiler / Stiller</h2><p>Eklentiler ile ilgili sorunlar için, lütfen uygun olan <a href="https://www.phpbb.com/community/viewforum.php?f=451">Uzantılar Forumuna</a> mesaj gönderin.<br />Stiller, temalar ve şablonlar ile ilgili sorunlar için, lütfen uygun olan <a href="https://www.phpbb.com/community/viewforum.php?f=471">Stiller Forumuna</a> mesaj gönderin.<br /><br />Eğer belirli bir pakete bağlı sorunuz varsa, lütfen direkt olarak paket için belirlenmiş başlığa mesaj gönderin.</p><h2>Destek Alma</h2><p><a href="https://www.phpbb.com/support/">Destek Bölümü</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Kolay Başlangıç Rehberi</a><br /><br />Son haberler ve yayınlanan sürümler ile güncel kalmak için, bizi <a href="https://www.twitter.com/phpbb/">Twitter</a> ve <a href="https://www.facebook.com/phpbb/">Facebook</a> sayfalarımızdan takip edebilirsiniz<br /><br />',
+	'SUPPORT_BODY'		=> 'phpBB3’ün şu anki sabit sürümü için ücretsiz, tam destek sağlanacaktır. Destek, şu konuları kapsar:</p><ul><li>kurulum</li><li>ayarlar</li><li>teknik sorular</li><li>yazılımdaki olası hatalara bağlı problemler</li><li>Release Candidate (RC) sürümlerinden son sabit sürüme güncelleme</li><li>phpBB 2.0.x sürümlerinden phpBB3 sürümüne dönüştürme</li><li>diğer mesaj panosu yazılımlarından phpBB3’e dönüştürme (lütfen <a href="https://www.phpbb.com/community/viewforum.php?f=486">Dönüştürücüler Forumuna</a> bakın)</li></ul><p>Hala phpBB3’ün beta sürümlerini kullanan kullanıcıların kurulumlarını, son sürümün yeni kopyası ile değiştirmeye teşvik ediyoruz.</p><h2>Eklentiler / Stiller</h2><p>Eklentiler ile ilgili sorunlar için, lütfen uygun olan <a href="https://www.phpbb.com/community/viewforum.php?f=451">Uzantılar Forumuna</a> mesaj gönderin.<br />Stiller, temalar ve şablonlar ile ilgili sorunlar için, lütfen uygun olan <a href="https://www.phpbb.com/community/viewforum.php?f=471">Stiller Forumuna</a> mesaj gönderin.<br /><br />Eğer belirli bir pakete bağlı sorunuz varsa, lütfen direkt olarak paket için belirlenmiş başlığa mesaj gönderin.</p><h2>Destek Alma</h2><p><a href="https://www.phpbb.com/support/">Destek Bölümü</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Kolay Başlangıç Rehberi</a><br /><br />Son haberler ve yayınlanan sürümler ile güncel kalmak için, bizi <a href="https://www.x.com/phpbb/">X</a> ve <a href="https://www.facebook.com/phpbb/">Facebook</a> sayfalarımızdan takip edebilirsiniz<br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'Genel Kamu Lisansı',
@@ -301,6 +301,7 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_TABLES'				=> 'Tablolar oluşturuluyor',
 
 	// Install data
+	'TASK_ADD_AI_CRAWLERS'		=> 'Yapay zeka tarayıcıları kaydediliyor',	
 	'TASK_ADD_BOTS'				=> 'Botlar kaydediliyor',
 	'TASK_ADD_LANGUAGES'		=> 'Mevcut diller kuruluyor',
 	'TASK_ADD_MODULES'			=> 'Modüller kuruluyor',
@@ -496,6 +497,7 @@ $lang = array_merge($lang, array(
 	// Common converter messages
 	'CONVERT_NOT_EXIST'			=> 'Belirtilen dönüştürücü bulunmuyor.',
 	'DEV_NO_TEST_FILE'			=> 'Dönüştürücü içerisindeki test_file değişkeni için hiç bir değer belirtilmedi. Eğer siz bu dönüştürücünün bir kullanıcıysanız, bu hatayı göremezsiniz, lütfen dönüştürücü yapımcısına bu mesajı bildirin. Eğer siz bir dönüştürücü yapımcısıysanız, doğrulamaya izin verilen yol hangi kaynak mesaj panosu içerisinde bulunuyorsa bir dosyanın adını belirlemelisiniz.',
+	'COULD_NOT_COPY'			=> '<strong>%1$s</strong> dosyası <strong>%2$s</strong> dizinine kopyalanamadı<br><br>Lütfen hedef dizinin mevcut olduğunu ve web sunucusu tarafından yazılabilir olduğunu kontrol edin.',	
 	'COULD_NOT_FIND_PATH'		=> 'Önceki mesaj panonuzun yolu bulunamıyor. Lütfen ayarlarınızı kontrol edip tekrar deneyin.<br />» %s kaynak yolu olarak belirtildi.',
 	'CONFIG_PHPBB_EMPTY'        => '“%s” için phpBB3 yapılandırma değişkeni boş.',
 

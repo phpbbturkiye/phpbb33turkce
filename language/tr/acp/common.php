@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'ACP_BOARD_FEATURES'		=> 'Mesaj panosu özellikleri',
 	'ACP_BOARD_MANAGEMENT'		=> 'Mesaj panosu yönetimi',
 	'ACP_BOARD_SETTINGS'		=> 'Mesaj panosu ayarları',
-	'ACP_BOTS'					=> 'Örümcekler/Robotlar',
+	'ACP_BOTS'					=> 'Örümcekler/Botlar',
 
 	'ACP_CAPTCHA'				=> 'CAPTCHA',
 
@@ -607,6 +607,7 @@ $lang = array_merge($lang, array(
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Başlık tipi değiştirildi</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Başlığın kilidi açıldı</strong><br />» %s',
 	'LOG_UNLOCK_POST'			=> '<strong>Mesajın kilidi açıldı</strong><br />» %s',
+	'LOG_VERSION_CHECK_FAIL'	=> '<strong>Sürüm kontrolü başarısız oldu</strong>',	
 
 	'LOG_DISALLOW_ADD'		=> '<strong>İzin verilmeyen kullanıcı isimlerine ekleme yapıldı</strong><br />» %s',
 	'LOG_DISALLOW_DELETE'	=> '<strong>İzin verilmeyen kullanıcı isimlerinden silme işlemi yapıldı</strong>',

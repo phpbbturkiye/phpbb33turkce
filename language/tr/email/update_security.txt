@@ -1,0 +1,14 @@
+Subject: phpBB {NEW_VERSION} güncellemesi mevcut - "{SITENAME}" için güvenlik güncellemesi mevcut
+
+Merhaba {USERNAME},
+
+Bu bildirim, phpBB kurulumunuz için bir güvenlik güncellemesi yayınlandığını size haber vermek amacıyla gönderilmiştir.
+
+Şu an {CURRENT_VERSION} sürümünü kullanıyorsunuz ve güvenlik düzeltmelerini içeren yeni bir sürüm mevcut. Kurulumunuzun güvenli ve koruma altında kalmasını sağlamak için mesaj panonuzu mevcut en son sürüm olan {NEW_VERSION} sürümüne yükseltmenizi öneririz.
+
+Sürüm ayrıntılarını, phpBB kurulumunuzun Yönetici Kontrol Panelinde görüntüleyebilirsiniz.
+{U_BOARD}
+
+Güncelleme süreciyle ilgili yardım almak için lütfen phpBB belgelerine bakın veya phpBB destek forumlarını ziyaret edin.
+
+{EMAIL_SIG}
