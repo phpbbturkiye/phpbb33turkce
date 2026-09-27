@@ -3,7 +3,7 @@
  *
  * VigLink extension for the phpBB Forum Software package.
  *
- * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
+ * @copyright (c) 2026 phpBB Limited <https://www.phpbb.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  */
@@ -38,6 +38,6 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACP_VIGLINK_SETTINGS'		=> 'VigLink ayarları',
-	'LOG_VIGLINK_CHECK_FAIL'	=> '<strong>phpBB.com ile VigLink ayarları doğrulanamadı</strong><br />» %s',
+	'VIGLINK'				=> 'VigLink (Sovrn)',
+	'VIGLINK_DESCRIPTION'	=> 'Satış ortağı komisyonu belirlenmesi amacıyla, ticari işletmelere yapılan dış ziyaretleri takip etmek için üçüncü taraf betikler ve çerezler kullanır.',
 ));

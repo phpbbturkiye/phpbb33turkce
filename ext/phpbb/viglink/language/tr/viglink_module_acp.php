@@ -7,6 +7,7 @@
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  */
+
 /**
  * DO NOT CHANGE
  */
@@ -14,10 +15,12 @@ if (!defined('IN_PHPBB'))
 {
 	exit;
 }
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
+
 // DEVELOPERS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
@@ -33,6 +36,7 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste:
 // ’ » “ ” …
 //
+
 $lang = array_merge($lang, array(
 	'ACP_VIGLINK_SETTINGS'			=> 'VigLink ayarları',
 	'ACP_VIGLINK_SETTINGS_EXPLAIN'	=> 'VigLink, kullanıcı deneyiminde herhangi bir değişiklik yapmadan forumunuzun kullanıcıları tarafından gönderilen bağlantılardan birbirinden ayrı bir şekilde para kazandıran üçüncü parti bir hizmettir. Kullanıcılar giden bağlantılardaki ürünlere ya da hizmetlere tıkladığında veya bir şey satın aldığında, satıcılar ya da tüccarlar VigLink’e bir komisyon öder ve bu komisyonun bir kısmı phpBB projesine bağışlanır. VigLink’i etkinleştirmeyi seçerek ve phpBB projesine gelirleri bağışlayarak, açık kaynak organizasyonumunuzu destekleyebilir ve finansal güvenliğimizin devam etmesini sağlayabilirsiniz.',
